@@ -1,0 +1,12 @@
+POPUP ALERT CODE
+
+
+
+        AlertDialog helloAlert = new AlertDialog.Builder(this).create();
+        helloAlert.setTitle("test popup");
+        helloAlert.setMessage("Hello World");
+        helloAlert.setButton("close", new DialogInterface.OnClickListener() {
+        	public void onClick(DialogInterface arg0, int arg1) {}
+        });
+        helloAlert.show();
+        
