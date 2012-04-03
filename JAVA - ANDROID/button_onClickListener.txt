@@ -1,0 +1,11 @@
+button on click listener
+
+
+searchButton.setOnClickListener(new OnClickListener() {            
+    @Override
+    public void onClick(View v) {
+        
+		// do actions
+
+    }
+});
